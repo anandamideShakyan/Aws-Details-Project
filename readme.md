@@ -22,7 +22,14 @@ Custom styles are applied to format the buttons, loader, and result cards. The l
 
 ```css
 #loader {
-    /* Styles for the loader */
+    display: none;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
 }
 
 .card {
