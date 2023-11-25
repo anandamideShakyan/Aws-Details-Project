@@ -78,14 +78,14 @@ CORS (Cross-Origin Resource Sharing) is handled using the Flask-CORS extension t
 ## How It Works
 
 1. The user clicks one of the buttons on the HTML page to request specific AWS details.
-![Alt Text](screenshots/img1.png){:class="img-fluid rounded border border-primary"}
+![Alt Text](screenshots/img1.png)
 
 2. The JavaScript code makes an asynchronous fetch request to the corresponding Flask endpoint.
 3. The Flask backend processes the request, interacts with AWS services using boto3, and returns the requested details.
-![Alt Text](screenshots/img2.png){:class="img-fluid rounded border border-primary"}
+![Alt Text](screenshots/img2.png)
 
 4. The JavaScript code receives the response, updates the DOM to display the details in a card format, and hides the loader.
-![Alt Text](screenshots/img3.png){:class="img-fluid rounded border border-primary"}
+![Alt Text](screenshots/img3.png)
 This project demonstrates the interaction between a simple HTML frontend and a Flask backend to fetch and display AWS details dynamically.
 
 
